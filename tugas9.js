@@ -15,3 +15,4 @@ function prosesLeaderboard (skor){
     }
     }
 prosesLeaderboard(skor)
+
