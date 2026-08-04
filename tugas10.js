@@ -8,8 +8,7 @@ const daftarPendaftar = [
 ];
 
 function validasiDaftarEmai(daftarPendaftar){
-       
-    for(let i =0; i < daftarPendaftar.length; i++){
+    for(let i = 0; i < daftarPendaftar.length; i++){
         let simbol1 = daftarPendaftar[i].includes("@");
         let simbol2 = daftarPendaftar[i].includes(".");
         if(simbol1 == true && simbol2 == true){
