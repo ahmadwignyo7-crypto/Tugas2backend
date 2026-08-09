@@ -15,7 +15,7 @@ for(let i =0; i < jamKerja.length; i++){
 return {
     totalJamKerja,
     totalGaji
-};0
+};
 }
 const hasil = gajiMinggu([8, 9, 8, 10, 9, 4, 7]);
 console.log(`Total jam kerja selama seminggu: ${hasil.totalJamKerja} jam`);
